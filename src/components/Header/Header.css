@@ -1,0 +1,70 @@
+
+.fbclass:hover{
+    opacity: .9;
+}
+
+.custom li{
+    background-color: green;
+    transform: .3s;
+}
+
+.custom li a{
+    color: white;
+    padding: 10px 50px;
+    border-right: 1px solid black;
+}
+
+.custom li a:hover{
+    color: red;
+}
+
+.custom li:hover{
+    background-color: red;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item{
+    padding: 12px 40px 12px 20px;
+    font-size: 15px;
+    font-family:arial;
+    color:black;
+    font-weight: lighter;
+    transform-origin: center;
+    animation :rotate 1.5s ease 1;
+}
+@keyframes rotate{
+    0%{transform: perspective(600px) rotatey(90deg); transform-origin:center;}
+    100%{transform: perspective(600px) rotatey(0deg); transform-origin:center;}
+}
+
+.dropdown-item:nth-of-type(1){
+    animation-delay: 0s;
+}
+.dropdown-item:nth-of-type(2){
+    animation-delay: 0.1s;
+}
+.dropdown-item:nth-of-type(3){
+    animation-delay: 0.2s;
+}
+.dropdown-item:nth-of-type(4){
+    animation-delay: 0.3s;
+}
+.dropdown-item:nth-of-type(5){
+    animation-delay: 0.4s;
+}
+.dropdown-item:nth-of-type(6){
+    animation-delay: 0.5s;
+}
+
+.dropdown-item:hover{
+    background-color: #0652dd;
+    color:white;
+}
