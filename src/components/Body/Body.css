@@ -50,11 +50,6 @@
     width: 770px;
     text-align: left;
 }
-
-.CARD-2{
-    color: white;
-}
-
 .head-logo{
     width: 40px;
     padding-right: 10px;
@@ -69,3 +64,31 @@
         font-size: 15px;
     }
   }
+
+  /* for moving text */
+  .marquee span{
+    color: green;
+    font-size: 18px;
+  }
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+    }
+}
+
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 20s infinite linear;
+}

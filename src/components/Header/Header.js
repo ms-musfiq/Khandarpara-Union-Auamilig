@@ -67,7 +67,7 @@ const Header = () => {
             
             <div className="container row update">
                 <div className="col-2 upone">দলীয় প্রোগ্রাম</div>
-                <div className="col-10 uptwo"><marquee>****** কাজ চলছে, কাজ চলছে, কাজ চলছে ******* </marquee></div>
+                <div className="col-10 uptwo"><h3 class="marquee"><span>****** কাজ চলছে, কাজ চলছে, কাজ চলছে, কাজ চলছে, কাজ চলছে,  *******</span> </h3></div>
             </div>
 
         </div>

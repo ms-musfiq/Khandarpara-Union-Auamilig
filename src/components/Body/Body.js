@@ -11,7 +11,7 @@ const Body = () => {
 
             <div className="container row update">
                 <div className="col-2 upone">আপডেট</div>
-                <div className="col-10 uptwo"><marquee>****** খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ এ্রর ওয়েব সাইটে আপনাকে স্বাগতম ******* </marquee></div>
+                <div className="col-10 uptwo"><h3 class="marquee"><span>****** খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ এ্রর ওয়েব সাইটে আপনাকে স্বাগতম *******</span> </h3></div>
             </div>
 
 
