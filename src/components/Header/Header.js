@@ -9,10 +9,10 @@ const Header = () => {
         <div className="container">
             <div className="row mt-2">
                 <div className="col">
-                    <img src={banner} alt=""/>
+                    <img className="img-fluid" src={banner} alt=""/>
                 </div>
                 <div className="col">
-                    <img src={logo} alt=""/>
+                    <img className="img-fluid" src={logo} alt=""/>
                 </div>
             </div>
 
@@ -64,9 +64,12 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-
-
             
+            <div className="container row update">
+                <div className="col-2 upone">দলীয় প্রোগ্রাম</div>
+                <div className="col-10 uptwo"><marquee>****** কাজ চলছে, কাজ চলছে, কাজ চলছে ******* </marquee></div>
+            </div>
+
         </div>
     );
 };

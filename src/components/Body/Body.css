@@ -1,0 +1,71 @@
+.body{
+    color: black;
+    margin-top: 10px;
+    width: 97%;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.right-card{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.one{
+    width: 70%;
+}
+
+.one h5{
+    font-size: 15px;
+}
+
+.two{
+    width: 300px;
+    height: 100%;
+    border: 1px solid red;
+    margin-left: 10px;
+}
+
+.card{
+    margin-right: 10px;
+}
+
+.bg{
+    background-color: green;
+}
+
+.card h5{
+    color: white;
+}
+
+.update{
+    padding-top: 20px;
+}
+
+.cadr-head{
+    background-color: rgb(117, 117, 117);
+    padding: 10px 0px;
+    margin-top: 30px;
+    width: 770px;
+    text-align: left;
+}
+
+.CARD-2{
+    color: white;
+}
+
+.head-logo{
+    width: 40px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-card {
+        display: block;
+    }
+    .card-title {
+        font-size: 15px;
+    }
+  }

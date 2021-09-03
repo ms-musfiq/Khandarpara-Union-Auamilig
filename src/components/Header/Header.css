@@ -68,3 +68,31 @@
     background-color: #0652dd;
     color:white;
 }
+
+.update{
+    margin: 20px 0px;
+}
+
+.upone{
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+}
+
+.uptwo{
+    text-align: right;
+    border: 1px solid green;
+}
+
+.uptwo marquee{
+    color: green;
+    padding-top: 10px;
+    padding-right: 0px ;
+}
+
+@media only screen and (max-width: 600px) {
+    .upone {
+        font-size: 14px;
+    }
+  }
