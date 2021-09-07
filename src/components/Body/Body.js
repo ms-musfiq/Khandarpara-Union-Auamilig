@@ -4,6 +4,11 @@ import card1 from '../Img/Cards/01.jpg';
 import card2 from '../Img/Cards/02.jpg';
 import card3 from '../Img/Cards/03.jpg';
 import card4 from '../Img/KUAL.png';
+import mpsir from '../Img/Aside/01.jpg';
+import chairman from '../Img/Aside/02.jpg';
+import sovapoti from '../Img/Aside/03.jpg';
+import sompadok from '../Img/Aside/04.jpg';
+import kantara from '../Img/Aside/05.jpg';
 
 const Body = () => {
     return (
@@ -45,7 +50,8 @@ const Body = () => {
                 </div>
                 
                 <div class="two">
-                    কাজ চলছে, কাজ চলছে, কাজ চলছে
+                    <img width ="200" src={mpsir} alt=""/>
+                    <h1 class="mpsir">মাননীয় সংসদ সদস্য গোপালগঞ্জ ১ </h1>
                 </div>
 
             </div>
@@ -80,10 +86,154 @@ const Body = () => {
                 </div>
                 
                 <div class="two">
-                    কাজ চলছে, কাজ চলছে, কাজ চলছে
+                    <img width ="200" src={kantara} alt=""/>
+                    <h1 class="mpsir">সদস্য আান্তর্জাতিক বিষয়ক উপ-কমিটি</h1>
                 </div>
 
             </div>
+
+            <div class="right-card">
+
+                <div class="one">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src={card2} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">যার হাত ধরে গঠিত আমাদের সোনার বাংলা</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card1} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">ডিজিটাল বাংলাদেশের স্বপ্ন এখন বাস্তব</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card3} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">গঠিত হওয়া আমাদের সেই দিনের কথা</h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two">
+                    <img width ="200" src={chairman} alt=""/>
+                    <h1 class="mpsir">সাংগঠনিক সম্পাদক মুকসুদপুর উপজেলা আওয়ামী লীগ </h1>
+                </div>
+
+            </div>
+
+            <div class="cadr-head">
+                <div className="col-3 text-left CARD-2">
+                    <img class="head-logo" src={card4} alt="..."/>
+                    সাম্প্রতিক খবর
+                </div>
+            </div>
+
+            <div class="right-card">
+
+                <div class="one">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src={card2} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">যার হাত ধরে গঠিত আমাদের সোনার বাংলা</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card1} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">ডিজিটাল বাংলাদেশের স্বপ্ন এখন বাস্তব</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card3} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">গঠিত হওয়া আমাদের সেই দিনের কথা</h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two">
+                    <img width ="200" src={sovapoti} alt=""/>
+                    <h1 class="mpsir">সভাপতি খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ </h1>
+                </div>
+
+            </div>
+            <div class="right-card">
+
+                <div class="one">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src={card2} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">যার হাত ধরে গঠিত আমাদের সোনার বাংলা</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card1} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">ডিজিটাল বাংলাদেশের স্বপ্ন এখন বাস্তব</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card3} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">গঠিত হওয়া আমাদের সেই দিনের কথা</h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two">
+                    <img width ="200" src={sompadok} alt=""/>
+                    <h1 class="mpsir">সাধারণ সম্পাদক খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ </h1>
+                </div>
+
+            </div>
+
+                {/* <div class="one">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src={card2} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">যার হাত ধরে গঠিত আমাদের সোনার বাংলা</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card1} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">ডিজিটাল বাংলাদেশের স্বপ্ন এখন বাস্তব</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card3} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">গঠিত হওয়া আমাদের সেই দিনের কথা</h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two">
+                    <img width ="200" src={sovapoti} alt=""/>
+                    <h1 class="mpsir">সভাপতি খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ </h1>
+                </div>
+
+                <div class="one">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src={card2} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">যার হাত ধরে গঠিত আমাদের সোনার বাংলা</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card1} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">ডিজিটাল বাংলাদেশের স্বপ্ন এখন বাস্তব</h5></div>
+                        </div>
+                        <div class="card">
+                            <img src={card3} class="card-img-top" alt="..."/>
+                            <div class="card-body bg">
+                            <h5 class="card-title">গঠিত হওয়া আমাদের সেই দিনের কথা</h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two">
+                    <img width ="200" src={sompadok} alt=""/>
+                    <h1 class="mpsir">সাধারণ সম্পাদক খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ </h1>
+                </div> */}
 
             
         </div>
