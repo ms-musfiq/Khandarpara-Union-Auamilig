@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
+import nuralam from '../Img/nuralam.jpg';
 
 const Footer = () => {
     return (
@@ -11,12 +12,24 @@ const Footer = () => {
                     <div class="left box">
                         <h2>আমাদের সম্পর্কে</h2>
                         <div class="content">
-                            <p>CodinNepal is a YouTube channel where you can learn web designing, web development, ui/ux designing, html css tutorial, hover animation and effects, javascript and jquery tutorial and related so on.</p>
+                            <div className="row">
+                                <div className="col-4">
+                                    <img className="nuralam" src={nuralam} alt="..."/>
+                                </div>
+                                <div className="col-8">
+                                    <p>  
+                                         <h4 className="tex">নূর আলম শেখ </h4>
+                                         দেশসেরা উ‍দ্যোক্তা, 
+                                         খান্দারপাড়া ইউনিয়ন ডিজিটাল সেন্টার, 
+                                         মুকসুদপুর, গোপালগঞ্জ,
+                                    </p>
+                                </div>
+                            </div>
                             <div class="social">
-                                <a target="blank" href="https://www.facebook.com/khandarparaunionawamilileague"><span class="fab fa-facebook-f"></span></a>
-                                <a target="blank" href="https://www.facebook.com/khandarparaunionawamilileague"><span class="fab fa-twitter"></span></a>
-                                <a target="blank" href="https://www.facebook.com/khandarparaunionawamilileague"><span class="fab fa-instagram"></span></a>
-                                <a target="blank" href="https://www.facebook.com/khandarparaunionawamilileague"><span class="fab fa-youtube"></span></a>
+                                <a target="blank" href="https://www.facebook.com/nuralamshaikh1995"><span class="fab fa-facebook-f"></span></a>
+                                <a target="blank" href="https://www.facebook.com/nuralamshaikh1995"><span class="fab fa-twitter"></span></a>
+                                <a target="blank" href="https://www.facebook.com/nuralamshaikh1995"><span class="fab fa-instagram"></span></a>
+                                <a target="blank" href="https://www.facebook.com/nuralamshaikh1995"><span class="fab fa-youtube"></span></a>
                             </div>
                          </div>
                     </div>

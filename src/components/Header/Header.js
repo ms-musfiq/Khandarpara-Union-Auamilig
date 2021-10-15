@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div className="container">
             <div className="row mt-2">
-                <div className="col">
+                <div className="col-md-6">
                     <img className="img-fluid" src={banner} alt=""/>
                 </div>
-                <div className="col">
+                <div className="col-md-6">
                     <img className="img-fluid" src={logo} alt=""/>
                 </div>
             </div>
@@ -67,7 +67,7 @@ const Header = () => {
             
             <div className="container row update">
                 <div className="col-2 upone">দলীয় প্রোগ্রাম</div>
-                <div className="col-10 uptwo"><h3 class="marquee"><span>****** কাজ চলছে, কাজ চলছে, কাজ চলছে, কাজ চলছে, কাজ চলছে,  *******</span> </h3></div>
+                <div className="col-10 uptwo"><h3 class="marquee"><span>******খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ এর নিউজ আপডেট *******</span> </h3></div>
             </div>
 
         </div>

@@ -16,14 +16,20 @@
     width: 70%;
 }
 
-.one h5{
-    font-size: 15px;
+.two img{
+    border: 1px solid green;
+    box-sizing: border-box;
 }
 
-.two{
-    width: 300px;
-    height: 100%;
-    margin-left: 10px;
+.two h3{
+    font-size: 18px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.one h5{
+    font-size: 15px;
 }
 
 .card{
@@ -46,7 +52,6 @@
     background-color: rgb(117, 117, 117);
     padding: 10px 0px;
     margin-top: 30px;
-    width: 770px;
     text-align: left;
 }
 .head-logo{
@@ -54,6 +59,7 @@
     padding-right: 10px;
     padding-left: 5px;
 }
+
 
 @media only screen and (max-width: 600px) {
     .right-card {
