@@ -196,7 +196,14 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-        
+
+          <div>
+                <h3 class="tex">*** কন্ঠে কন্ঠে বেজে উঠুক নৌকার গান ***</h3>
+                <div class="ratio ratio-16x9 w-50 video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y-oFBOap8kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            
+          </div>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
-import nuralam from '../Img/nuralam.jpg';
+import NurAlam from '../Img/NurAlam.jpg';
 
 const Footer = () => {
     return (
@@ -14,13 +14,13 @@ const Footer = () => {
                         <div class="content">
                             <div className="row">
                                 <div className="col-4">
-                                    <img className="nuralam" src={nuralam} alt="..."/>
+                                    <img className="nuralam" src={NurAlam} alt="..."/>
                                 </div>
                                 <div className="col-8">
                                     <p>  
                                          <h4 className="tex">নূর আলম শেখ </h4>
-                                         দেশসেরা উ‍দ্যোক্তা, 
-                                         খান্দারপাড়া ইউনিয়ন ডিজিটাল সেন্টার, 
+                                         প্রচার ও প্রকাশনা সম্পাদক, 
+                                         খান্দারপাড়া ইউনিয়ন আওয়ামী লীগ, 
                                          মুকসুদপুর, গোপালগঞ্জ,
                                     </p>
                                 </div>
